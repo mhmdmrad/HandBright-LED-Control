@@ -57,6 +57,7 @@ while cap.isOpened():
 
     cv2.imshow("Hand Tracking LED Control", frame)
 
+   
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
